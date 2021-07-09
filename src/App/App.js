@@ -1,9 +1,10 @@
+import ClubOverview from "../ClubOverview/ClubOverview";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>TM-28</h1>
+      <ClubOverview />
     </div>
   );
 }
